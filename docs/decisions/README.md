@@ -67,3 +67,4 @@ Claude は、会話や設計の流れの中で重要な判断が固まったら
 | --- | --- | --- |
 | [ADR-0001](ADR-0001-typescript-monorepo.md) | TypeScript のモノレポで構成し、API は Next.js から分ける | Accepted |
 | [ADR-0002](ADR-0002-no-database.md) | DB を持たず、時刻表と駅マスタはオブジェクトストレージからメモリへ読み込む | Accepted |
+| [ADR-0003](ADR-0003-odpt-over-google-routes.md) | 経路データは ODPT から取り、Google の経路 API と有料の乗換 API は使わない | Accepted |
